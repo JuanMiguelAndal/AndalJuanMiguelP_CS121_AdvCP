@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 class BankAccount(ABC):
     def __init__(self, account_number, balance=0):
         self._account_number = account_number
-        self._balance = balance\
+        self._balance = balance
         
     @property
     def account_number(self):
